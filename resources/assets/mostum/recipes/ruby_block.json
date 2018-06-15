@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+   
+    "key":
+    {
+        "X":
+        {
+            "item": "mostum:ruby"
+        }
+    },
+   
+    "result":
+    {
+        "item": "mostum:ruby_block",
+        "count": 1
+    }
+}

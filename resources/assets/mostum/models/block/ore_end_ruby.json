@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "mostum:blocks/ore_end_ruby"
+   }
+}

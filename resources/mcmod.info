@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mostum",
+  "name": "Benj's Mega Mod",
+  "description": "Benj's Mega Mod Adds Tons Of Resources, Biomes, Dimensions, Items, Blocks, Mobs And A Hole Ton More All For Your Minecraft Needs! ",
+  "version": "0.0.1",
+  "mcversion": "1.12.2",
+  "url": "http://www.4by4studios.net",
+  "updateUrl": "",
+  "authorList": ["Benj"],
+  "credits": "Google & Novaskin For Templete Texture's",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,7 @@
+{
+    "variants":
+    {
+        "variant=ruby": { "model": "mostum:ore_end_ruby" },
+        "variant=amethyst": { "model": "mostum:ore_end_amethyst" }
+    }
+}

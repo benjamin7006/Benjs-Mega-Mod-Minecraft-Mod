@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+   
+    "key":
+    {
+        "X":
+        {
+            "item": "mostum:obsidian_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:obsidian",
+        "count": 1
+    }
+}
