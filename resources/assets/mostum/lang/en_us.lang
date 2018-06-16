@@ -30,10 +30,10 @@ item.obsidian_shovel.name=Obsidian Shovel
 item.obsidian_hoe.name=Obsidian Hoe
 
 //Obsidian Armor
-item.obsidian_helmet.name=Ruby Helmet
-item.obsidian_chest.name=Ruby Chestplate
-item.obsidian_leggings.name=Ruby Leggings
-item.obsidian_boots.name=Ruby Boots
+item.obsidian_helmet.name=Obsidian Helmet
+item.obsidian_chest.name=Obsidian Chestplate
+item.obsidian_leggings.name=Obsidian Leggings
+item.obsidian_boots.name=Obsidian Boots
 
 //Amethyst Tools
 item.amethyst_sword.name=Amethyst Sword

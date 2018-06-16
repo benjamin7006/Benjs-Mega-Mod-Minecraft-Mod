@@ -2,6 +2,7 @@
     "variants":
     {
         "variant=ruby": { "model": "mostum:ore_end_ruby" },
-        "variant=amethyst": { "model": "mostum:ore_end_amethyst" }
+        "variant=amethyst": { "model": "mostum:ore_end_amethyst" },
+        "variant=silver": { "model": "mostum:ore_end_silver" }
     }
 }
