@@ -20,6 +20,7 @@ public class WorldGenCustomOres implements IWorldGenerator {
 	
 	private WorldGenerator ore_overworld_ruby, ore_nether_ruby, ore_end_ruby;
 	private WorldGenerator ore_overworld_amethyst, ore_nether_amethyst, ore_end_amethyst;
+	private WorldGenerator ore_overworld_silver, ore_nether_silver, ore_end_silver;
 	
 	public WorldGenCustomOres() {
 		
@@ -32,6 +33,11 @@ public class WorldGenCustomOres implements IWorldGenerator {
 		ore_overworld_amethyst = new WorldGenMinable(ModBlocks.ORE_OVERWORLD.getDefaultState().withProperty(BlockOres.VARIENT, EnumHandler.EnumType.AMETHYST), 9, BlockMatcher.forBlock(Blocks.STONE));
 		ore_nether_amethyst = new WorldGenMinable(ModBlocks.ORE_NETHER.getDefaultState().withProperty(BlockOres.VARIENT, EnumHandler.EnumType.AMETHYST), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
 		ore_end_amethyst = new WorldGenMinable(ModBlocks.ORE_END.getDefaultState().withProperty(BlockOres.VARIENT, EnumHandler.EnumType.AMETHYST), 9, BlockMatcher.forBlock(Blocks.END_STONE));
+		
+		//Silver
+		ore_overworld_silver = new WorldGenMinable(ModBlocks.ORE_OVERWORLD.getDefaultState().withProperty(BlockOres.VARIENT, EnumHandler.EnumType.SILVER), 9, BlockMatcher.forBlock(Blocks.STONE));
+		ore_nether_silver = new WorldGenMinable(ModBlocks.ORE_NETHER.getDefaultState().withProperty(BlockOres.VARIENT, EnumHandler.EnumType.SILVER), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
+		ore_end_silver = new WorldGenMinable(ModBlocks.ORE_END.getDefaultState().withProperty(BlockOres.VARIENT, EnumHandler.EnumType.SILVER), 9, BlockMatcher.forBlock(Blocks.END_STONE));
 	}
 	
 	@Override
@@ -42,6 +48,7 @@ public class WorldGenCustomOres implements IWorldGenerator {
 			//runGenrator(Ore, *world*, *random*, *chunkX*, *chunkZ*, chance, minHeight, maxHeight);
 			runGenerator(ore_nether_ruby, world, random, chunkX, chunkZ, 50, 0, 100);
 			runGenerator(ore_nether_amethyst, world, random, chunkX, chunkZ, 50, 0, 100);
+			runGenerator(ore_nether_silver, world, random, chunkX, chunkZ, 50, 0, 100);
 			
 			break;
 			
@@ -50,6 +57,7 @@ public class WorldGenCustomOres implements IWorldGenerator {
 			//runGenrator(Ore, *world*, *random*, *chunkX*, *chunkZ*, chance, minHeight, maxHeight);
 			runGenerator(ore_overworld_ruby, world, random, chunkX, chunkZ, 50, 0, 100);
 			runGenerator(ore_overworld_amethyst, world, random, chunkX, chunkZ, 50, 0, 100);
+			runGenerator(ore_nether_silver, world, random, chunkX, chunkZ, 50, 0, 100);
 			
 			break;
 			
@@ -58,6 +66,7 @@ public class WorldGenCustomOres implements IWorldGenerator {
 			//runGenrator(Ore, *world*, *random*, *chunkX*, *chunkZ*, chance, minHeight, maxHeight);
 			runGenerator(ore_end_ruby, world, random, chunkX, chunkZ, 50, 0, 256);
 			runGenerator(ore_end_amethyst, world, random, chunkX, chunkZ, 50, 0, 100);
+			runGenerator(ore_nether_silver, world, random, chunkX, chunkZ, 50, 0, 100);
 			
 			break;
 			

@@ -45,11 +45,19 @@ public class ModItems {
 	public static final ArmorMaterial ARMOR_RUBY = EnumHelper.addArmorMaterial("armor_ruby", Reference.MOD_ID + ":ruby" , 35, new int[] {3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON , 1.0f);
 	public static final ArmorMaterial ARMOR_AMETHYST = EnumHelper.addArmorMaterial("armor_amethyst", Reference.MOD_ID + ":amethyst" , 30, new int[]{4, 5, 6, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0F);
 	
-	//Items
+	//Minerals
 	public static final Item OBSIDIAN_DUST = new ItemBase("obsidian_dust", Main.mostumItemsTab);
+	public static final Item OBSIDIAN_NUGGET = new ItemBase("obsidian_nugget", Main.mostumItemsTab);
 	public static final Item OBSIDIAN_INGOT = new ItemBase("obsidian_ingot", Main.mostumItemsTab);
 	public static final Item RUBY = new ItemBase("ruby", Main.mostumItemsTab);
 	public static final Item AMETHYST = new ItemBase("amethyst", Main.mostumItemsTab);
+	public static final Item COPPER_INGOT = new ItemBase("copper_ingot", Main.mostumItemsTab);
+	public static final Item ALUMINIUM_INGOT = new ItemBase("aluminum_ingot", Main.mostumItemsTab);
+	public static final Item TIN_INGOT = new ItemBase("tin_ingot", Main.mostumItemsTab);
+	public static final Item SILVER_INGOT = new ItemBase("silver_ingot", Main.mostumItemsTab);
+	public static final Item SILVER_NUGGET = new ItemBase("silver_nugget", Main.mostumItemsTab);
+	
+	//Items
 	public static final Item MAGIC_DUST = new ItemBase("magic_dust", Main.mostumItemsTab);
 	
 	//Obsidian Tools

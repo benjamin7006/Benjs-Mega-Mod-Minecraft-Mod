@@ -34,6 +34,7 @@ public class MagicDimTeleportItem extends ItemBase {
 			 playerIn.changeDimension(0);
 		 } else {
 			 playerIn.changeDimension(Reference.DIMENSION_MAGIC_ID);
+			 playerIn.respawnPlayer();
 		 }
 		return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, itemstack);
 	}

@@ -7,7 +7,8 @@ public class EnumHandler {
 	public static enum EnumType implements IStringSerializable {
 	
 		AMETHYST(0, "amethyst"),
-		RUBY(1, "ruby");
+		RUBY(1, "ruby"),
+		SILVER(2, "silver");
 		
 		private static final EnumType[] META_LOOKUP = new EnumType[values().length];
 		private final int meta;
